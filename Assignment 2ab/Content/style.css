@@ -1,0 +1,42 @@
+﻿
+/*GENERAL CSS*/
+.cwidth{max-width:1080px; margin:0 auto;}
+header,footer{background:#b2b2b2;}
+header{margin-bottom:50px;}
+footer{margin-top:50px;}
+
+
+/*CSS FOR TABLE-LIKE STYLING*/
+#students_result {width:100%;}
+.listitem {background:#4cff00; padding: 12px 5%; width:90%; overflow:hidden; transition:background 1000ms;}
+
+.listitem:after{clear:both;}
+.listitem:nth-child(2n){background:#ffd800;}
+.listitem:hover {background: #b200ff;}
+.listitem:nth-child(2n):hover{background:#ff006e;}
+/*
+    sandbox.bittsdevelopment.com/colcalc
+    columns : 4
+    gutter/column ratio : 0.2
+*/
+.col4, .col4last{float:left; width:21.73%; margin-right:4.34%;}
+.col4last{margin-right:0%;}
+
+.col5, .col5last {
+    float: left;
+    width: 17.48%;
+    margin-right: 3.14%;
+    padding-bottom: 10%;
+    background: #0094ff
+}
+    .col5:hover {
+        background: #ff6a00;
+        transition: background 200ms;
+    }
+
+.col5last{margin-right:0%;}
+    .col5last:hover {
+        background: #ff6a00;
+        transition: background 200ms;
+    }
+
