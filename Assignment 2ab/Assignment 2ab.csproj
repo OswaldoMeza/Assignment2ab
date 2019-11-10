@@ -144,6 +144,10 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="StudentCRUD.aspx" />
+    <Content Include="TeacherCRUD.aspx" />
+    <Content Include="SubjectsCRUD.aspx" />
+    <Content Include="StudentsxClassesCRUD.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -258,6 +262,34 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentCRUD.aspx.cs">
+      <DependentUpon>StudentCRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentCRUD.aspx.designer.cs">
+      <DependentUpon>StudentCRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherCRUD.aspx.cs">
+      <DependentUpon>TeacherCRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeacherCRUD.aspx.designer.cs">
+      <DependentUpon>TeacherCRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubjectsCRUD.aspx.cs">
+      <DependentUpon>SubjectsCRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubjectsCRUD.aspx.designer.cs">
+      <DependentUpon>SubjectsCRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsxClassesCRUD.aspx.cs">
+      <DependentUpon>StudentsxClassesCRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentsxClassesCRUD.aspx.designer.cs">
+      <DependentUpon>StudentsxClassesCRUD.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
